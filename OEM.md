@@ -1,12 +1,14 @@
+## SteamOS hardware enablement and development guidelines
+
 If you want to create a Steam machine design, please keep the following things in mind when deciding on the specifications.
 
 All hardware support is provided out of the box by the SteamOS image and as such, support for your devices has to be integrated into SteamOS ahead of time. This requires coordination between you, your device vendors and Valve well ahead of the release (or even specification) of your product.
 
-###### Graphics
+#### Graphics
 
 Graphics driver releases from the vendors are integrated as-is into SteamOS; as such it is your responsibility to coordinate with them to ensure the hardware and features you want to ship will be supported by their publicly available drivers by the time you're planning to start ramping up testing.
 
-###### Picking hardware devices
+#### Picking hardware devices
 
 When specifying your Steam Machine design, please make sure all the device vendors provide Linux support and are willing to work with Valve to integrate their support into the Linux kernel shipped with the current SteamOS release.
 
@@ -26,7 +28,7 @@ Make sure your pull requests are fully tested on the target hardware or that Val
 
 We cannot support out-of-tree drivers; please ensure your vendors are ready to have all their changes upstream by the time they expect SteamOS testing to be able to begin.
 
-###### Boot firmware display
+#### Boot firmware display
 
 The steps below will ensure we have all the tools at our disposal to offer a seamless boot experience from pressing the power button to the SteamOS login screen:
 
@@ -43,7 +45,7 @@ The steps below will ensure we have all the tools at our disposal to offer a sea
 ** Nothing should be overlaid on top of the splash screen (eg. text prompts; "Press DEL to enter setup")
 ** The firmware shouldn't clear this splash screen before handing off to the SteamOS bootloader
 
-###### Boot firmware input
+#### Boot firmware input
 
 * The BIOS setup screen should be able to be entered with the Tab key and navigated with the Arrow keys, Enter and Escape.
 * The machine should be able to be powered on using a keyboard device by default, without having to enable it in the BIOS setup.
