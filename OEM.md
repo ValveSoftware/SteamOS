@@ -33,20 +33,20 @@ We cannot support out-of-tree drivers; please ensure your vendors are ready to h
 The steps below will ensure we have all the tools at our disposal to offer a seamless boot experience from pressing the power button to the SteamOS login screen:
 
 * The firmware should program the primary display device with its native timings, according to its EDID
-** Not doing that will cause a modeswitch during boot, making the TV go dark for a few seconds and print mode information
+ * Not doing that will cause a modeswitch during boot, making the TV go dark for a few seconds and print mode information
 * The firmware should allocate its EFI framebuffer with the same size as the mode it's programming
-** The SteamOS bootloader and kernel inherit this framebuffer
-** Allocating a mismatching framebuffer will cause a distorted/pixelated splash screen and flickering during boot
+ * The SteamOS bootloader and kernel inherit this framebuffer
+ * Allocating a mismatching framebuffer will cause a distorted/pixelated splash screen and flickering during boot
 * The firmware should only display the SteamOS splash screen during regular boot
-** The splash screen will be stored in EFI/steamos/splash.png by SteamOS and might be updated in-place in the future
-** The splash screen should be upscaled or downscaled to the target framebuffer resolution (see above)
-** The splash screen aspect ratio should be maintained
-** The splash screen shouldn't be zoomed
-** Nothing should be overlaid on top of the splash screen (eg. text prompts; "Press DEL to enter setup")
-** The firmware shouldn't clear this splash screen before handing off to the SteamOS bootloader
+ * The splash screen will be stored in EFI/steamos/splash.png by SteamOS and might be updated in-place in the future
+ * The splash screen should be upscaled or downscaled to the target framebuffer resolution (see above)
+ * The splash screen aspect ratio should be maintained
+ * The splash screen shouldn't be zoomed
+ * Nothing should be overlaid on top of the splash screen (eg. text prompts; "Press DEL to enter setup")
+ * The firmware shouldn't clear this splash screen before handing off to the SteamOS bootloader
 
 #### Boot firmware input
 
 * The BIOS setup screen should be able to be entered with the Tab key and navigated with the Arrow keys, Enter and Escape.
 * The machine should be able to be powered on using a keyboard device by default, without having to enable it in the BIOS setup.
-** Only the spacebar keycode should power on the system; other keys such as the arrow keys, Esc and Tab should not be able to power on the system
+ * Only the spacebar keycode should power on the system; other keys such as the arrow keys, Esc and Tab should not be able to power on the system
