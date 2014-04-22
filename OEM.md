@@ -1,4 +1,4 @@
-## SteamOS hardware enablement and development guidelines
+### SteamOS hardware enablement and development guidelines
 
 If you want to create a Steam machine design, please keep the following things in mind when deciding on the specifications.
 
