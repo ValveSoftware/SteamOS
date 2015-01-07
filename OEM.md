@@ -38,7 +38,7 @@ The steps below will ensure we have all the tools at our disposal to offer a sea
  * The SteamOS bootloader and kernel inherit this framebuffer
  * Allocating a mismatching framebuffer will cause a distorted/pixelated splash screen and flickering during boot
 * The firmware should only display the SteamOS splash screen during regular boot
- * The splash screen will be stored in EFI/steamos/splash.png by SteamOS and might be updated in-place in the future
+ * The splash screen will be stored in EFI/steamos/steamos.png by SteamOS and might be updated in-place in the future
  * The splash screen should be upscaled or downscaled to the target framebuffer resolution (see above)
  * The splash screen aspect ratio should be maintained
  * The splash screen shouldn't be zoomed
