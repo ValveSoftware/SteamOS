@@ -47,6 +47,5 @@ The steps below will ensure we have all the tools at our disposal to offer a sea
 
 #### Boot firmware input
 
+* The machine needs to be able to be woken up and powered on from S5 with the USB port that hosts the Steam Controller's wireless dongle, through regular USB power events.
 * The BIOS setup screen should be able to be entered with the Tab key and navigated with the Arrow keys, Enter and Escape.
-* The machine should be able to be powered on using a keyboard device by default, without having to enable it in the BIOS setup.
- * Only the spacebar keycode should power on the system; other keys such as the arrow keys, Esc and Tab should not be able to power on the system
