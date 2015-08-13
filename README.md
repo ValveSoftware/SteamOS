@@ -8,6 +8,8 @@ SteamOS FAQ
 
 http://steamcommunity.com/groups/steamuniverse/discussions/1/648814395741989999/
 
+Supplimental community-driven information can also be found in the [wiki](https://github.com/ValveSoftware/SteamOS/wiki) section of this repository.
+
 Reporting Issues
 ----------------
 
