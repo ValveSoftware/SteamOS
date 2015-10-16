@@ -49,3 +49,7 @@ The steps below will ensure we have all the tools at our disposal to offer a sea
 
 * The machine needs to be able to be woken up and powered on from S5 with the USB port that hosts the Steam Controller's wireless dongle, through regular USB power events.
 * The BIOS setup screen should be able to be entered with the Tab key and navigated with the Arrow keys, Enter and Escape.
+
+#### Factory Install Processes
+
+* The machine's RTC should be set to UTC time, not local time. The end user selects their time zone during the first boot. 
