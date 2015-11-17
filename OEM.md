@@ -18,7 +18,7 @@ https://github.com/ValveSoftware/steamos_kernel
 
 This tree is the common kernel for all SteamOS devices; as such, be very careful about the scope of your patches and don't touch common code or interfaces unless you have a very good reason to do so.
 
-The current shipping branch for SteamOS 1.0 is 'alchemist-3.10' and branched off 'linux-3.10.y' from kernel.org; send your pull requests against 'alchemist-3.10_proposed'.
+The current shipping branch for SteamOS 2.0 is 'brewmaster-3.18' and branched off 'linux-3.18.y' from kernel.org; send your pull requests against 'brewmaster-3.18_proposed'.
 
 Please coordinate with your vendors to confirm that support for their devices is either:
 * Already present in that base version of the kernel, in which case it'll be supported out-of-the-box by the SteamOS kernel
@@ -49,3 +49,7 @@ The steps below will ensure we have all the tools at our disposal to offer a sea
 
 * The machine needs to be able to be woken up and powered on from S5 with the USB port that hosts the Steam Controller's wireless dongle, through regular USB power events.
 * The BIOS setup screen should be able to be entered with the Tab key and navigated with the Arrow keys, Enter and Escape.
+
+#### Factory Install Processes
+
+* The machine's RTC should be set to UTC time, not local time. The end user selects their time zone during the first boot. 
