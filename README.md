@@ -27,7 +27,7 @@ If it has not been reported, create a new issue with at least the following info
 - steps for reproducing the issue; and
 - your system information.\*
 
-Please place logs either in a code block (press `M` in your browser for a GFM cheat sheet) or a [gist](https://gist.github.com). Information on log locations what what do with them, can be found on [wiki](https://github.com/ValveSoftware/SteamOS/wiki/Reviewing-log-information). If the logs and/or system information are lengthy, please place them into a GitHub [Gist](https://gist.github.com/).
+Please place logs either in a code block (press `M` in your browser for a GFM cheat sheet) or a [gist](https://gist.github.com) if they are lengthy. Information on log locations what what do with them, can be found on [wiki](https://github.com/ValveSoftware/SteamOS/wiki/Reviewing-log-information). 
 
 Conduct
 -------
