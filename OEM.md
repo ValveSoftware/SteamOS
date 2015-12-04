@@ -18,7 +18,7 @@ https://github.com/ValveSoftware/steamos_kernel
 
 This tree is the common kernel for all SteamOS devices; as such, be very careful about the scope of your patches and don't touch common code or interfaces unless you have a very good reason to do so.
 
-The current shipping branch for SteamOS 2.0 is 'brewmaster-3.18' and branched off 'linux-3.18.y' from kernel.org; send your pull requests against 'brewmaster-3.18_proposed'.
+The current shipping branch for SteamOS 2.0 is 'brewmaster-4.1' and branched off 'linux-4.1.y' from kernel.org; send your pull requests against 'brewmaster-4.1'.
 
 Please coordinate with your vendors to confirm that support for their devices is either:
 * Already present in that base version of the kernel, in which case it'll be supported out-of-the-box by the SteamOS kernel
