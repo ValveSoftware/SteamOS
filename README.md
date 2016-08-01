@@ -16,7 +16,9 @@ Reporting Issues
 If you encounter an issue while using SteamOS, first search the [issue list](https://github.com/ValveSoftware/SteamOS/issues) to see if it has already been reported. Include closed issues in your search.  Some issues may have already been reported to other trackers, so it may be worth checking the following:
 
 - [Steam for Linux](https://github.com/ValveSoftware/steam-for-linux/issues) for Steam Client issues
-- [Dota 2] (https://github.com/ValveSoftware/Dota-2/issues) for issues regarding Dota 2.
+- [Dota 2] (https://github.com/ValveSoftware/Dota-2/issues) for issues regarding Dota 2 on Mac and Linux/SteamOS.
+- [Counter-Strike: Global Offensive] (https://github.com/ValveSoftware/Counter-Strike-Global-Offensive/issues) for issues regarding Counter-Strike: Global Offensive on Linux/SteamOS.
+- [Portal 2] (https://github.com/ValveSoftware/portal2/issues) for issues regarding Portal 2 on Linux/SteamOS.
 - [HalfLife] (https://github.com/ValveSoftware/halflife/issues) for issues regarding Half-Life 1 engine (GoldSrc) games.
 - [Source-1 Games] (https://github.com/ValveSoftware/Source-1-Games/issues) for issues regarding Source games (HL2, TF2, CS:S, etc)
 
