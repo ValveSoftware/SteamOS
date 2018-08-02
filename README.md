@@ -29,7 +29,7 @@ If it has not been reported, create a new issue with at least the following info
 - steps for reproducing the issue; and
 - your system information.\*
 
-Please place logs either in a code block (press `M` in your browser for a GFM cheat sheet) or a [gist](https://gist.github.com) if they are lengthy. Information on log locations what what do with them, can be found on [wiki](https://github.com/ValveSoftware/SteamOS/wiki/Reviewing-log-information). 
+Please place logs either in a code block ([go here](https://guides.github.com/features/mastering-markdown/) for a GFM cheat sheet) or a [gist](https://gist.github.com) if they are lengthy. Information on log locations and what to do with them can be found on the [wiki](https://github.com/ValveSoftware/SteamOS/wiki/Reviewing-log-information). 
 
 Conduct
 -------
