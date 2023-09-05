@@ -28,6 +28,9 @@ If it has not been reported, create a new issue with at least the following info
 - a detailed description of the issue, including any output from the command line;
 - steps for reproducing the issue; and
 - your system information.\*
+- Steam has the ability to submit a "system report" directly to Valve, that could include useful information about the issue.
+   - `Settings -> System -> Advanced -> System Report -> Create Report`
+   - It's necessary to mention your steam ID in the issue so that the corresponding system report can be retrieved.
 
 Please place logs either in a code block (press `M` in your browser for a GFM cheat sheet) or a [gist](https://gist.github.com) if they are lengthy. Information on log locations what what do with them, can be found on [wiki](https://github.com/ValveSoftware/SteamOS/wiki/Reviewing-log-information). 
 
