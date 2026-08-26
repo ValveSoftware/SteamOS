@@ -3,10 +3,15 @@ SteamOS community tracker
 
 This issue tracker is meant for community support and requests for improvements.
 
-SteamOS FAQ
+SteamOS Installation and Repair
 -----------
 
-https://help.steampowered.com/en/faqs/view/79DC-B3D4-D352-A3CC
+https://help.steampowered.com/en/faqs/view/65B4-2AA3-5F37-4227
+
+SteamOS Recovery and Troubleshooting
+-----------
+
+https://help.steampowered.com/en/faqs/view/1B71-EDF2-EB6D-2BB3
 
 Reporting Issues
 ----------------
